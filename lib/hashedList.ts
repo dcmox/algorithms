@@ -1,3 +1,5 @@
+import { IHashedNode } from './interfaces'
+
 const crypt = require('crypto')
 
 const hashedListFromArray = (items: any[]) => {
@@ -51,9 +53,9 @@ export class HashedList {
     }
 
     public rewind(): void { this._index = 0 }
-    get data(): IHashedNode { return this._list[this._index].data }
-    get list(): IHashedNode[] { return this._list }
-    get hash(): string {
+    public data(): IHashedNode { return this._list[this._index].data }
+    public list(): IHashedNode[] { return this._list }
+    public hash(): string {
         let s: string = ''
         for (let i = 1; i < this._list.length; i++) { s += this._list[i].hash }
         const hash = crypt.createHash('sha256')

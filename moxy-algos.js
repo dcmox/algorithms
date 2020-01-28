@@ -6,9 +6,9 @@
  */
 exports.__esModule = true;
 var detectCycle_1 = require("./detectCycle");
+var binaryHashTree_1 = require("./lib/binaryHashTree");
 var hashedList_1 = require("./lib/hashedList");
 var linkedList_1 = require("./lib/linkedList");
-var binaryHashTree_1 = require("./lib/binaryHashTree");
 var MoxyAlgos = /** @class */ (function () {
     function MoxyAlgos() {
     }

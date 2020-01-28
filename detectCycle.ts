@@ -1,3 +1,4 @@
+import { INode } from './lib/interfaces'
 import { LinkedList } from './lib/linkedList'
 
 export const detectCycle = (nodes: INode[] | LinkedList) => {

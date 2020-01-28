@@ -1,11 +1,13 @@
+import { INode } from './interfaces'
+
 export class LinkedList {
     private _list: INode[]
     private _index: number = 0
     constructor(items: any[]) {
         this._list = linkedListFromArray(items)
     }
-    get next(): INode { return this._list[this._index].next }
-    get data(): INode { return this._list[this._index].data }
+    public next(): INode { return this._list[this._index].next }
+    public data(): INode { return this._list[this._index].data }
 }
 
 const linkedListFromArray = (items: any[]) => {

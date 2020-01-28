@@ -36,6 +36,12 @@ export class BinaryHashTree {
         return true
     }
 
+    public tree(): any { return this._tree }
+
+    public hash(): string {
+        return this._tree.hash
+    }
+
     private _createBinaryTree = (data: any[]): IBinaryNode[] => {
         const leaves: IBinaryLeaf[] = this._generateBinaryLeaves(data)
         let tree: any = { hash: '', nodes: this._createNodesFromLeaves(leaves) }
@@ -87,10 +93,5 @@ export class BinaryHashTree {
         const hash = crypt.createHash('sha256')
         hash.update(s)
         return hash.digest('hex')
-    }
-
-    get tree(): any { return this._tree }
-    get hash(): string {
-        return this._tree.hash
     }
 }

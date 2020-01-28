@@ -5,9 +5,10 @@
  */
 
 import { detectCycle } from './detectCycle'
-import { HashedList } from './lib/hashedList'
-import { LinkedList } from './lib/linkedList'
 import { BinaryHashTree } from './lib/binaryHashTree'
+import { HashedList } from './lib/hashedList'
+import { INode } from './lib/interfaces'
+import { LinkedList } from './lib/linkedList'
 
 export class MoxyAlgos {
     public static HashedList(items: any[]): HashedList { return new HashedList(items) }
@@ -17,4 +18,3 @@ export class MoxyAlgos {
 }
 
 export default MoxyAlgos
-
