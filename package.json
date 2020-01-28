@@ -1,6 +1,6 @@
 {
   "name": "moxy-algos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Moxy General Purpose Algorithms",
   "main": "moxy-algos.js",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dcmox/moxy-algos.git"
+    "url": "git+https://github.com/dcmox/algorithms.git"
   },
   "keywords": [
     "moxy",
@@ -35,7 +35,7 @@
   "author": "Daniel Moxon (dancmox@comcast.net)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/dcmox/moxy-algos/issues"
+    "url": "https://github.com/dcmox/algorithms/issues"
   },
-  "homepage": "https://github.com/dcmox/moxy-algos#readme"
+  "homepage": "https://github.com/dcmox/algorithms#readme"
 }
