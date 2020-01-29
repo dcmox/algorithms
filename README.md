@@ -4,7 +4,7 @@ Useful data structures and algorithms
 ## Features
 * LinkedList
 * HashedList
-* BinaryHashTree
+* BinaryHashTree w/ hash validation and proofs
 * detectCycle (loops)
 
 ## Usage
