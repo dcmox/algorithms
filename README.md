@@ -6,6 +6,8 @@ Useful data structures and algorithms
 * HashedList
 * BinaryHashTree w/ hash validation and proofs
 * detectCycle (loops)
+* sha256
+* base58
 
 ## Usage
 ```typescript

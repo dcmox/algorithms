@@ -1,6 +1,6 @@
 {
   "name": "moxy-algos",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "Moxy General Purpose Algorithms",
   "main": "moxy-algos.js",
